@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: aaa
+    sentinel:
+      transport:
+        dashboard: 172.16.50.42:8088
+        port: 8819
