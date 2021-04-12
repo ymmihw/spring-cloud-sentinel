@@ -1,7 +1,8 @@
 spring:
   application:
-    name: aaa
+    name: sentinel-intro
+  cloud:
     sentinel:
       transport:
+        port: 8731
         dashboard: 172.16.50.42:8088
-        port: 8819
